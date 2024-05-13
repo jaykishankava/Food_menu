@@ -1,0 +1,85 @@
+.bg-img{
+   
+    background-image: url(https://wallpapercave.com/wp/wp7144470.jpg);
+    background-blend-mode:darken ;
+    background-color: rgb(253, 253, 253);
+    background-size:contain;
+}
+
+.header{
+    margin-bottom: 200px;
+}
+
+.logo h1{
+    padding: 10px;
+    background-color: rgb(255, 53, 53);
+    justify-content: end;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .card-img-top{
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+    transition: all 0.5s;
+    background-position: center;
+}
+.card{
+    overflow: hidden;
+    transition: all 0.5s;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card .card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    background-color: rgb(177, 105, 105) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h5{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+}
+.card p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+} 
+
+button{
+    font-family: "Briem Hand", cursive!important;
+    justify-content: space-evenly;
+    background-color: red !important;
+    color: white !important;
+}
+
+.button-1 {
+    background-color:red;
+    border-radius: 5px !important;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color:white;
+    display: inline-block;
+  }
+  .button-1:hover {
+    box-shadow: 0 0 10px 0 white inset, 0 0 20px 2px white;
+    border: 3px solid white;
+  }
+  
